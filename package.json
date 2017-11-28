@@ -1,0 +1,19 @@
+{
+  "name": "world-of-boarcraft",
+  "version": "1.0.0",
+  "description": "## Installation First, please install Emscripten. You can follow the instructions to install Emscripten on their website: http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#sdk-download-and-install",
+  "main": "index.js",
+  "scripts": {
+    "install": "git submodule sync && git submodule init && git submodule update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1337programming/world-of-boarcraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1337programming/world-of-boarcraft/issues"
+  },
+  "homepage": "https://github.com/1337programming/world-of-boarcraft#readme"
+}
