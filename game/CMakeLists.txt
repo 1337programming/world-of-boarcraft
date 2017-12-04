@@ -29,8 +29,8 @@ link_libraries("glad")
 link_libraries("glm")
 #link_libraries("stb")
 
-file(GLOB_RECURSE CORE_HDR src/*.h)
-file(GLOB_RECURSE CORE_SRC src/*.cpp)
+file(GLOB_RECURSE CORE_HDR engine/*.h)
+file(GLOB_RECURSE CORE_SRC engine/*.cpp)
 
 #
 # Trying usual cmake project compiler execution
